@@ -20,5 +20,12 @@ const Statistics = ({ good,neutral, bad, total,positivePercentage}) => {
    </ul>
             </>
           )
-          };
+};
+Statistics.protoType = {
+  good: ProtoType.number,
+  positivePercentage: ProtoType.func,
+  neutral: ProtoType.number,
+  bad: ProtoType.number,
+  total:ProtoType.number
+}
 export default Statistics;

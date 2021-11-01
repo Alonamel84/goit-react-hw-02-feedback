@@ -4,4 +4,7 @@ const Notification = () => {
         <p className={s.message}>No feedback given</p>
     )
 };
+Notification.protoType = {
+    good: ProtoType.string,
+}
 export default Notification;

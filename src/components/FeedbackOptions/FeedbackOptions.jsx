@@ -12,4 +12,10 @@ const FeadbackOptions = ({ onLeaveFeedback, name,type}) => {
         )
         ))
 }
+Statistics.protoType = {
+  name: ProtoType.array,
+  onLeaveFeedback: ProtoType.func,
+  type: ProtoType.bool,
+ 
+}
 export default FeadbackOptions;
